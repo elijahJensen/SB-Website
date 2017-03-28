@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Superior Ballroom Dance Child Theme
+ Theme URI:    http://www.sktthemes.com/
+ Description:  An SKT Strong child theme
+ Author:       Elijah
+ Author URI:   http://www.elijahjensen.com
+ Template:     skt-strong
+ Version:      1.5.0
+*/
+
+@import url("../skt-strong/style.css");
+
+// Needed for the logo
+// .container {
+//   margin-left: 0;
+//   position: absolute;
+// }
+
+.logo {
+  padding: 0;
+  width: 25%;
+
+  a {
+    display: block;
+    padding: 4rem 2rem 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: -3rem;
+    left: -1rem;
+  }
+
+  img {
+      height: auto;
+      display: block;
+      margin: 0 auto;
+  }
+}
+
+.menuwrapper {
+  margin-left: 25%;
+  width: auto;
+}
